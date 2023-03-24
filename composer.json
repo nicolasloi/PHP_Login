@@ -1,0 +1,24 @@
+{
+  "name": "nicolas/php_exercice",
+  "autoload": {
+    "psr-4": {
+      "PhpExercice\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "nicolasloison13",
+      "email": "nicolasloison13@icloud.com"
+    }
+  ],
+  "require": {
+    "php": "^8.2",
+    "ext-pdo": "*",
+    "nesbot/carbon": "^2.65"
+  },
+  "require-dev": {
+    "squizlabs/php_codesniffer": "^3.7",
+    "symfony/dotenv": "^6.2",
+    "symfony/var-dumper": "^6.2"
+  }
+}
